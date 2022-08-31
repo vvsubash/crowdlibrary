@@ -8,10 +8,3 @@ workers_dev = true
 compatibility_date = "2022-08-30"
 
 
-[site]
-bucket = ".output/public"
-entry-point = ".output"
-
-[build]
-command = ""
-upload.format = "service-worker"
